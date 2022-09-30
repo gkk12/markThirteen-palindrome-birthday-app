@@ -1,6 +1,10 @@
 body {
     text-align: center;
     background-color: lightgreen;
+    background-image: url("celebration.webp");
+    /*
+    bonus question 
+    */
 }
 
 p {
