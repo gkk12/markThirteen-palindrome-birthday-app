@@ -1,3 +1,7 @@
+:root {
+    --primary-dark: #1F2937;
+    --primary-green: #6EE7B7;
+  }
 body {
     text-align: center;
     background-color: lightgreen;
@@ -11,3 +15,41 @@ p {
     text-align: center;
     font-size: large;
 }
+
+.footer {
+    /* background-color: var(--primary-color); */
+    
+    padding: 2rem 0rem;
+    text-align: center;
+    color: var(--primary-dark);
+    border-top-right-radius: 1rem;
+ }
+  
+ .footer .link {
+    color: var(--primary-dark);
+ }
+  
+ .footer .footer-header {
+    font-weight: bold;
+    font-size: large;
+ }
+  
+ .footer ul {
+    padding-inline-start: 0px;
+ }
+  
+ .link {
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    margin-top: 1rem;
+ }
+  
+ .list-non-bullet {
+    list-style: none;
+ }
+  
+ .list-item-inline {
+    display: inline;
+    padding: 0rem 0.5rem;
+ }
+ 
