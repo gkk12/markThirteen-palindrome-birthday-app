@@ -150,7 +150,6 @@ showBtnRef.addEventListener('click', clickHandler);
 
 function clickHandler() {
     var birthday = inputDateRef.value;
-
     if(birthday != ''){
     var birthdaySplit = birthday.split('-');
     console.log(birthdaySplit); 
@@ -176,6 +175,9 @@ function clickHandler() {
         var [counter,nextDate] = getNextPalindromeDate(date);
         outputText.innerText = `Next Palindrome date is ${nextDate.day}-${nextDate.month}-${nextDate.year} and there are ${counter} days to go`;
     }
+}
+else{
+    outputText.innerText = "Please enter a Birthday"
 }
    
 }
